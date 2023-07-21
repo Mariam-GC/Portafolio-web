@@ -40,9 +40,11 @@ h2{
 }
 
 .seccion-titulo {
-  font-size: 2rem;
+  font-size: 2.5em;
   padding: 15px 0;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color:#EFA842;
+  border-radius: 2%;
 }
 
 .seccion-descripcion {
@@ -87,6 +89,7 @@ h2{
   height: 200px;
   margin: 20px;
   border-style: groove;
+  margin-top: 5rem;
 }
 
 .hero-principal h2 {
@@ -96,21 +99,49 @@ h2{
 
 /* Barra de navegación */
 .nav-link{
+  font-size: 1.5rem;
+  font-style:inherit;
+  color: #400403;
   height: 30px;
-  justify-content: center 
-  
-  ;
+  justify-content: center;
+  align-items:center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav-link:hover{
+  color: aliceblue;
+
 }
 /* Sobre mi */
 
 .sobre-mi {
   height: 500px;
   padding: 10px;
+  background-color:#f4d7ae;
+  justify-content:center;
 }
 
 .sobre-mi .contenedor {
-  max-width: 600px;
+  max-width: 7000px;
+  max-height: 7800px;
   text-align: center;
+  background-color:#EFA842;
+  justify-content:center;
+}
+.seccion-titulo-sobre-mi{
+  font-size: 2.5em;
+  padding: 15px 0;
+  color: #0a0a23;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.seccion-titulo-sobre-mi:hover{
+  border-color: #de4f15;
+  border-style: hidden;
+  box-shadow: 1px 7px 7px 7px #20212447 ;
+}
+
+.sobre-mi .contenedor:hover{
+  border-color:#de4f15;
+
 }
 
 /* Experiencia */
@@ -159,9 +190,18 @@ h2{
 }
 
 /* Proyectos */
+.seccion-titulo-texto-negro {
+  background-color:#f5f6f7;
+  border-style:outset;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 .proyectos-recientes {
   padding: 40px;
+  background-color:#f4d7ae;
 }
 
 .proyectos-recientes img {
@@ -171,6 +211,7 @@ h2{
   border-radius: 10px;
   display: block;
   transition: all 0.2s ease;
+  background-color:#f7b89f;
 }
 
 .proyectos-contenedor {
@@ -202,6 +243,7 @@ h2{
 
 .proyecto:hover img {
   opacity: 0.2;
+  box-shadow: 1px 7px 7px 7px #c14919; 
 }
 
 .proyecto:hover .overlay {
@@ -222,7 +264,15 @@ h2{
 /* Testimonios */
 
 .testimonios {
-  padding: 40px 40px 80px 40px;
+  padding: 60px 40px 80px 40px;
+}
+.seccion-titulo-testimonios{
+  background-color: #f4d7ae;
+  margin-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 50px 10px 40px 10px white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3em;
 }
 
 .testimonios .carousel {
@@ -284,7 +334,7 @@ h2{
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color:#2B51E4;
+  background-color:#de4f15;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -293,11 +343,14 @@ h2{
   width: 100%;
   display: flex;
   align-items: center;
+  color: #f4f6fa;
+  font-size:large;
+  border-radius: 5%;
 }
 
 .contacto .descripcion {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .contacto button {
