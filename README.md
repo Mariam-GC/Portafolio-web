@@ -1,4 +1,4 @@
-# Portafolio Mariam García.
+# Portafolio Adaptable (Responsive) con Bootstrap 5
 
 Este proyecto creado para el bootcamp Tecnolochicas PRO, es una página web adaptable a dispositivos de distintos tamaños (este tipo de sitio web se conoce en inglés como "responsive"). 
 
@@ -10,7 +10,23 @@ También incluye imágenes alternativas en la carpeta `imagenes` en caso de que 
 
 Primera parte de la página web:
 
-![Primera parte de la página web](https://github.com/Mariam-GC/Portafolio-web/blob/main/Paginaweb1.png)
+![Primera parte de la página web](imagenes/screenshot1.png)
+
+Experiencia:
+
+![Experiencia](imagenes/screenshot2.png)
+
+Proyectos:
+
+![Proyectos](imagenes/screenshot3.png)
+
+Testimonios:
+
+![Testimonios](imagenes/screenshot4.png)
+
+Contacto:
+
+![Contacto](imagenes/screenshot5.png)
 
 ## Tecnologías
 

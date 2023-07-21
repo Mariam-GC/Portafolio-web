@@ -292,6 +292,16 @@ h2{
   align-items: center;
   justify-content: center;
 }
+.cv-portafolio{
+    height: 1rem;
+    font-size: .5 rem;
+    margin: 2px;
+    margin-inline:initial;
+    color:#656060;
+    background-color:#de4f15;
+    border-color: #2B51E4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 .testimonio-imagen {
   height: 150px;
