@@ -10,7 +10,7 @@ También incluye imágenes alternativas en la carpeta `imagenes` en caso de que 
 
 Primera parte de la página web:
 
-![Primera parte de la página web](C:\Users\maria\OneDrive\Desktop\PROGRAMACION\Tecnolochicas\portafolioTCPRO-main\imagenes)
+![Primera parte de la página web](https://github.com/Mariam-GC/Portafolio-web/blob/main/Paginaweb1.png)
 
 ## Tecnologías
 
