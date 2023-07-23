@@ -1,0 +1,229 @@
+body{
+    margin: 0;
+    /* padding */
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+/* NAVEGACIÓN/ ESTILOS HEADER */
+header{
+
+    /* Anchura */
+    width: 100%;
+    /* Altura */
+    height: 60px;
+}
+
+header nav{
+    /* alinear elemtos*/
+    display: flex;
+    /* Utilizar propiedad flex y justificar a la derecha  */
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    width: 30px auto;
+    /* Eliminar formato de lista */
+    list-style: none;
+    /* Propiedad flex- responsivo y flexible, habilita flex */
+    display: flex;
+    justify-content: center;
+    /* alinear verticalmente */
+    align-items: center;
+    height: auto;
+}
+a{
+    /* Quitar lineas de hipervínculo */
+    text-decoration: none;
+}
+nav .nav-right-section a{
+    margin-right: 25px;
+    color: rgba(0, 0, 0, .87    );
+}
+nav .nav-right-section .menu{
+    /* Colocar imágenes */
+    /* imagen de menú */
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    /* selecciona el tamaño max del ícono */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+nav .nav-right-section img{
+        width: 35px;
+        height: 35px;
+        margin-left: 20px;
+        border-radius: 50%;
+    }
+
+/* BUSCADOR/ ESTILOS MAIN */
+main{
+    margin-top: 1%;
+    text-align: center;
+}
+/* Sección logo */
+main .main-logo{
+/* ancho */
+width: 530px ;
+/* 0-no margen arriba y abjo
+auto-izquierda derecha se ajustan auto */
+/* Lados */
+margin: 0 auto ;
+/* Margen de abajo */
+/* Lados*/
+margin-bottom: 35px;
+}
+main .main-logo img{
+    height: 92px;
+    width: 272px;
+}
+main .main-input{
+    width: 530px;
+    /* Centrar elementos */
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input-container{
+    /* anchura de linea, estilo de línea y color de línea */
+    border: 1px solid rgb(187, 183, 183);
+    width: 540px;
+    border-radius: 100px;
+    padding: 5px 8px 0px 14px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    justify-content:center;
+    align-items: center;
+}
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border-style: none;
+    border: none;
+    height: 37px;
+    /*Eliminar contorno de caja input*/
+    outline:none;
+}
+/* :hover es para dar un efecto en alguna sección */
+main .main-input-container:hover{
+    border-color: #dfe1e500 ;
+/* Poner sombra a elemntos */
+box-shadow: 1px 2px 2px 2px #20212447 ;
+}
+main .main-input .search-icon{
+    background-image: url("https://seekicon.com/free-icon-download/search_20.svg");
+    /* PROPIEDADES PARA ELEMENTOS DE IMAGENES AGREGADAS */
+    padding-left: 4%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    
+}
+/* AQUI VA EL MICO ICON */
+main .main-input .micro-icon{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    padding: 0px 13px 0px 0px;
+    margin: -5 0px 0px;
+    cursor: pointer;
+}
+/* AQUI VA EL CAM ICON */
+main .main-input  .main-input-container .cam-icon{
+    background-image: url("https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    padding: 0px 13px 0px 0px;
+    margin: -5 0px 0px;
+    cursor: pointer;
+}
+
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+main .main-buttons div{
+    /* Display inline-block es para alinear botones */
+    display: inline-block;
+}
+main .main-buttons button{
+    border: 0;
+    background-color: #f8f9fa;
+    font-size: 16px;
+    color: #3c4043;
+    height: 37px;
+    border-radius: 5%;
+    /* Margen interno */
+    padding: 0 16px;
+    /* margen entre botones */
+    margin-right: 15px;
+    line-height: 27px;
+    cursor: pointer;
+    border: 1px solid #dedfe4;
+}
+main .main-buttons button:hover{
+    border-color: #3c4043;
+    box-shadow: 0px 1px 1px 0px #42444a47 ;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;;
+    background-color: #dedfe4;
+    padding: 20px;
+
+}
+
+footer div .fotter-left{
+    width: 30px 5;
+    padding: 0 6px;
+    /* Eliminar formato de lista */
+    list-style: none;
+    /* Propiedad flex- responsivo y flexible, habilita flex */
+    display: flex;
+    justify-content:left;
+    /* alinear verticalmente */
+    align-items:center;
+}
+
+footer ul{
+    margin: 10px;
+    display: flex;
+    padding-left: 0;
+    
+}
+footer div a {
+    margin-right: 15px;
+    color: #999da2;  
+}
+
+footer div .fotter-right{
+    width: 30px 5px;
+    padding: 0 6px;
+    /* Eliminar formato de lista */
+    list-style: none;
+    /* Propiedad flex- responsivo y flexible, habilita flex */
+    display: flex;
+    justify-content:right;
+    /* alinear verticalmente */
+    align-items: center;
+}
+
+/***************************************************************************************
+***************************************FOOTER************************************** */
